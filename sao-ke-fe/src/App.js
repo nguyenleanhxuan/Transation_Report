@@ -37,7 +37,8 @@ function App() {
       if (creditFrom) params.amount = creditFrom;
       if (content) params.content = content;
 
-      const res = await axios.get("http://127.0.0.1:5000/query", { params });
+      const API_URL = process.env.REACT_APP_API_URL;
+      const res = await axios.get(`${API_URL}/query`, { params });
       setResults(res.data);
       setPage(1); // Reset về trang đầu khi có kết quả mới
     } catch (err) {
