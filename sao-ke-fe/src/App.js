@@ -78,10 +78,10 @@ function App() {
               variant="h4"
               sx={{ fontWeight: "bold", letterSpacing: 1 }}
             >
-              MẶT TRẬN TỔ QUỐC VIỆT NAM
+              CharityFundsTracker
             </Typography>
             <Typography variant="subtitle2" sx={{ mt: 0.5 }}>
-              Đoàn kết - Dân chủ - Hợp tác - Phát triển
+              Tra cứu ủng hộ, sẻ chia yêu thương
             </Typography>
           </Box>
         </Container>
